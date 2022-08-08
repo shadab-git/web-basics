@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h3>Register Here</h3>
+    <form>
+        <label id="firstname">Firstname</label>
+        <input 
+        for="firstname" 
+        type="text" 
+        placeholder="Enter first name" 
+        required
+        autofocus
+        pattern="[a-z]{10}"
+        title="I accept value in alphanumeric format with 10 characters"
+        />
+        <br/>
+        <label id="lastname">Lastname</label>
+        <input for="lastname" type="text" placeholder="Enter last name"/>
+        <br/>
+        <label id="pass">Password</label>
+        <input for="pass" type="password" placeholder="Enter 8 char password"/>
+        <br/>
+        <label id="email">Email</label>
+        <input for="email" type="email" placeholder="Enter your email" multiple/>
+        <br/>
+        <label id="contact">Contact number</label>
+        <input for="contact" type="tel" placeholder="Enter Contact number"/>
+        <br/>
+
+        <label id="dob">Date of birth</label>
+        <input for="dob" type="date" placeholder="Enter DOB"/>
+        <br/>
+        <label id="gender">Gender</label>
+        <br/>
+        <label >Male</label>
+        <input type="radio" name="gender"/>
+     
+        <label >Female</label>
+        <input  type="radio" name="gender"/>
+
+       <br/>
+       <input type="checkbox"/>
+       <label>Agree terms and conditions</label>
+       <br/>
+       <input type="submit" value="Register"/>
+        <br/>
+    </form>
+  <hr/>
+  <!--Data list-->
+    <form>
+        <h2>Search for country</h2>
+        <input id="country_name" name="country_name" type="text" list="country"/>
+        <datalist id="country">
+            <option value="Australia"></option>
+            <option value="India"></option>
+            <option value="America"></option>
+            <option value="Russia"></option>
+            <option value="Bangladesh"></option>
+            <option value="Ukraine"></option>
+            <option value="Pakistan"></option>
+        </datalist>
+    </form>
+    <label>Search</label>
+    <input type="search" placeholder="Enter employee name"/>
+    <label>Age</label>
+    <input type="number" min ='22' max="60" value="22" title="min age 22 max age 60" />
+
+    <label for="vol">Volume (between 0 and 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+
+</body>
+</html>
