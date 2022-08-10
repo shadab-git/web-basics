@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="../css/basics.css"/>
+
 </head>
 <body>
-    <h3>Register Here</h3>
+    
     <form>
+        <h3>Register Here</h3>
         <label id="firstname">Firstname</label>
         <input 
         for="firstname" 
@@ -66,13 +69,33 @@
             <option value="Pakistan"></option>
         </datalist>
     </form>
+    <form>
     <label>Search</label>
     <input type="search" placeholder="Enter employee name"/>
     <label>Age</label>
     <input type="number" min ='22' max="60" value="22" title="min age 22 max age 60" />
 
     <label for="vol">Volume (between 0 and 50):</label>
-  <input type="range" id="vol" name="vol" min="0" max="50">
+    <input type="range" id="vol" name="vol" min="0" max="50">
+    </form>
 
+    <form >
+        <fieldset>
+          <legend>Personalia:</legend>
+          <label for="fname">First name:</label><br>
+          <input type="text" id="fname" name="fname" value="John"><br>
+          <label for="lname">Last name:</label><br>
+          <input type="text" id="lname" name="lname" value="Doe"><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+        <label for="browsersList">browsers</label>
+        <input type="text" list="browsers" id="browsersList" />
+        <datalist id="browsers" size="3">
+            <option>IE</option>
+            <option>Safari</option>
+            <option>Chrome</option>
+            <option>Mozilla</option>
+        </datalist>
+      </form>
 </body>
 </html>

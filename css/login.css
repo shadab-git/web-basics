@@ -1,0 +1,55 @@
+ul+h3{
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    border: 1px solid gray ;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+    align-content: space-between;
+   
+}
+
+.flex-container>input{
+    margin:5px;
+    height:30px;
+}
+.flex-container>label{
+    font-size: large;
+}
+
+.flex-container-2{
+    border: 1px solid black;
+    display: flex;
+    height:60px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    
+}
+div.flex-container-2 div{
+    border: 1px solid yellow;
+    background-color: palevioletred;
+    width:15%;
+
+}
+
+.flex-container-3{
+    border: 1px solid black;
+    display: flex;
+    height:auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+div.flex-container-3 div{
+    border: 1px solid yellow;
+    background-color: palevioletred;
+    width:15%;
+
+}

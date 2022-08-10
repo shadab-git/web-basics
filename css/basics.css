@@ -1,0 +1,31 @@
+
+.div1, .div2 {
+    font-family: cursive;
+
+}
+.div1{
+    text-transform: uppercase;
+}
+.div2{
+    text-transform: capitalize;
+}
+
+#image1{
+    width: 100px;
+    height:80px;
+}
+
+form{
+    border: 1px solid black ;
+    margin: 10px;
+    padding: 10px;
+    width:300px;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+}

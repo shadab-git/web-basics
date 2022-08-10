@@ -1,0 +1,22 @@
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    margin:15px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+ul li a{
+    text-decoration: none;
+}
+
+ul+p{
+    color:red;
+}
+ul~p{
+    color:green;
+}
+#item1+li a{
+    color: dodgerblue;
+}
